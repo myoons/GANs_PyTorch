@@ -4,7 +4,7 @@
 
 ## Results
 
-**_Training (200 Epochs)_**
+**_Training (200 Epochs)_**  
 ![training](https://user-images.githubusercontent.com/67945103/124447128-0ad12180-ddbc-11eb-986d-a531b6195d55.gif)
 
 
@@ -33,7 +33,7 @@ Download [Dataset](https://drive.google.com/file/d/1-8vLwENbumOMHJD5ZS8hBmSIW_fl
        └── mnist_images.npy 
 ```
 
-```mnist_images.npy``` has 60000 28 * 28 MNIST (hand-written digits) images
+```mnist_images.npy``` has 60000 MNIST (hand-written digits) images
 
 <br/>
 

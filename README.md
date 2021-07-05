@@ -2,6 +2,6 @@
 _**Implementation of GAN Series with PyTorch**_
 
 ### Series
-_[1. GAN](https://arxiv.org/pdf/1406.2661.pdf)_
+_[1. GAN](https://github.com/myoons/GANs_PyTorch/tree/master/GAN)_
 
 
