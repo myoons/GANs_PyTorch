@@ -1,0 +1,5 @@
+latent_size: 100
+epochs: 200
+batch_size: 64
+lr: 0.0005
+lr_decay: 0.98
