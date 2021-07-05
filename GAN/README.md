@@ -7,10 +7,9 @@
 **_Training (200 Epochs)_**  
 ![training](https://user-images.githubusercontent.com/67945103/124447128-0ad12180-ddbc-11eb-986d-a531b6195d55.gif)
 
-
 **_Generated Image_**
 
-![fake_images_190](https://user-images.githubusercontent.com/67945103/124447026-f4c36100-ddbb-11eb-96ea-f3e30ce98a5b.png)
+![generated_images](https://user-images.githubusercontent.com/67945103/124448990-f8f07e00-ddbd-11eb-8ffa-4e428d5ad689.png)
 
 **_Real Images_**
 
