@@ -16,8 +16,6 @@ logging.basicConfig(
 if __name__ == '__main__':
     set_seed(42)
 
-    images = np.load('data/mnist_images.npy')
-    dataset = SimpleDataset(images)
     myaml = yaml.load(open('config/model.yaml', 'r'), Loader=yaml.FullLoader)
     mconf = ModelConfig(myaml)
 
@@ -27,6 +25,9 @@ if __name__ == '__main__':
     tyaml = yaml.load(open(f'config/train.yaml', 'r'), Loader=yaml.FullLoader)
     make_ckpt_directory(tyaml)
     tconf = TrainConfig(tyaml)
+
+    images = np.load(f'data/{tyaml["dataset"]}.npy')
+    dataset = SimpleDataset(images)
 
     trainer = Trainer(generator, discriminator, dataset, tconf)
     trainer.train()
