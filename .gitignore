@@ -1,4 +1,6 @@
 .idea/
-GAN/data/
+GAN/data/*.npy
 GAN/checkpoints/
 GAN/__pycache__/
+
+DCGAN/__pycache__/
