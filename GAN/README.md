@@ -5,34 +5,42 @@
 ## Results
 
 **_Training (200 Epochs)_**  
-![training](https://user-images.githubusercontent.com/67945103/124447128-0ad12180-ddbc-11eb-986d-a531b6195d55.gif)
+![mnist_training](https://user-images.githubusercontent.com/67945103/124488902-5c44d500-ddeb-11eb-93fc-da9e37207fb2.gif)
+![fashion_mnist_training](https://user-images.githubusercontent.com/67945103/124488565-f8baa780-ddea-11eb-89c8-8cd936862fa6.gif)
 
-**_Generated Image_**
+<br/>
 
-![generated_images](https://user-images.githubusercontent.com/67945103/124448990-f8f07e00-ddbd-11eb-8ffa-4e428d5ad689.png)
+**_Generated Image_**  
+![generated_images_mnist](https://user-images.githubusercontent.com/67945103/124448990-f8f07e00-ddbd-11eb-8ffa-4e428d5ad689.png)
+![Generated_images_fashion_mnist](https://user-images.githubusercontent.com/67945103/124488621-053f0000-ddeb-11eb-8186-bd43cb1a5c11.png)
 
 **_Real Images_**
 
-![real_images](https://user-images.githubusercontent.com/67945103/124446616-8c747f80-ddbb-11eb-8d91-ec89c329f70c.png)
+![real_images_mnist](https://user-images.githubusercontent.com/67945103/124446616-8c747f80-ddbb-11eb-8d91-ec89c329f70c.png)
+![real_images_fashion_mnist](https://user-images.githubusercontent.com/67945103/124488594-ff491f00-ddea-11eb-8fbd-f88f263adc5a.png)
 
 <br/>
 
 ## Graphs
-![Probability](https://user-images.githubusercontent.com/67945103/124445751-c98c4200-ddba-11eb-9c0e-af778af1e214.png)
-![Loss](https://user-images.githubusercontent.com/67945103/124445755-cabd6f00-ddba-11eb-965a-f9c2673c3346.png)
-![Learning Rate](https://user-images.githubusercontent.com/67945103/124445761-cb560580-ddba-11eb-868c-adcb4afefbe0.png)
+![Learning Graphs](https://user-images.githubusercontent.com/67945103/124487902-32d77980-ddea-11eb-990c-8889556f91b6.png)
+
+- **_Orange : MNIST_**
+- **_Blue : Fashion MNIST_**
 
 <br/>
 
 ## Dataset 
 
-Download [Dataset](https://drive.google.com/file/d/1-8vLwENbumOMHJD5ZS8hBmSIW_flT6tn/view?usp=sharing) and locate in ```data/``` 
+- [MNIST](https://drive.google.com/file/d/1-8vLwENbumOMHJD5ZS8hBmSIW_flT6tn/view?usp=sharing)
+- [Fashion MNIST](https://drive.google.com/file/d/1-8vLwENbumOMHJD5ZS8hBmSIW_flT6tn/view?usp=sharing)
 ```text
    ├── data
-       └── mnist_images.npy 
+       ├── mnist_images.npy
+       └── fashion_mnist_images.npy 
 ```
 
-```mnist_images.npy``` has 60000 MNIST (hand-written digits) images
+```mnist_images.npy``` has 60000 MNIST images without labels   
+```fashion_mnist_images.npy``` has 60000 Fashion MNIST images without labels
 
 <br/>
 
