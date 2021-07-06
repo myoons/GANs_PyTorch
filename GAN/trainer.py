@@ -127,7 +127,7 @@ class Trainer:
                 fake_outputs = discriminator(fake_images)
                 fake_loss_d = criterion(fake_outputs, fake_labels)
 
-                loss_d = (real_loss_d + fake_loss_d).mean()
+                loss_d = real_loss_d + fake_loss_d
                 losses_d.append(loss_d.item())
                 loss_d.backward()
                 optimizer_d.step()

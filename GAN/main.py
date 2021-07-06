@@ -26,7 +26,7 @@ if __name__ == '__main__':
     make_ckpt_directory(tyaml)
     tconf = TrainConfig(tyaml)
 
-    images = np.load(f'data/{tyaml["dataset"]}.npy')
+    images = np.load(f'data/{tyaml["dataset"]}_images.npy')
     dataset = SimpleDataset(images)
 
     trainer = Trainer(generator, discriminator, dataset, tconf)
