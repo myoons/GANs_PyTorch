@@ -10,11 +10,9 @@ class ModelConfig:
     latent_size = None
     discriminator_first_hidden_size = None
     discriminator_second_hidden_size = None
-    discriminator_third_hidden_size = None
     discriminator_dropout = None
     generator_first_hidden_size = None
     generator_second_hidden_size = None
-    generator_third_hidden_size = None
     generator_dropout = None
     negative_slope = None
     image_size = None
@@ -35,10 +33,6 @@ class ModelConfig:
             logger.error("discriminator_second_hidden_size is not implemented")
             raise NotImplementedError
 
-        if not self.discriminator_third_hidden_size:
-            logger.error("discriminator_third_hidden_size is not implemented")
-            raise NotImplementedError
-
         if not self.discriminator_dropout:
             logger.error("discriminator_dropout is not implemented")
             raise NotImplementedError
@@ -49,10 +43,6 @@ class ModelConfig:
 
         if not self.generator_second_hidden_size:
             logger.error("generator_second_hidden_size is not implemented")
-            raise NotImplementedError
-
-        if not self.generator_third_hidden_size:
-            logger.error("generator_third_hidden_size is not implemented")
             raise NotImplementedError
 
         if not self.generator_dropout:
@@ -104,10 +94,6 @@ class Generator(nn.Module):
             if module.bias is not None:
                 module.bias.data.zero_()
 
-        elif isinstance(module, nn.BatchNorm1d):
-            module.bias.data.zero_()
-            module.weight.data.fill_(1.0)
-
     def forward(self, x):
         return self.generator(x).view(-1, 1, self.image_len, self.image_len)
 
@@ -147,9 +133,6 @@ class Discriminator(nn.Module):
             torch.nn.init.xavier_uniform_(module.weight)
             if module.bias is not None:
                 module.bias.data.zero_()
-
-        elif isinstance(module, nn.BatchNorm1d):
-            module.bias.data.zero_()
 
     def forward(self, x):
         return self.discriminator(x.view(-1, self.image_size))
