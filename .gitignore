@@ -4,3 +4,9 @@ GAN/checkpoints/
 GAN/__pycache__/
 
 DCGAN/__pycache__/
+DCGAN/data/*.npy
+DCGAN/checkpoints/
+
+Conditional_GAN/__pycache__/
+Conditional_GAN/data/*.npy
+Conditional_GAN/checkpoints/
