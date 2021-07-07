@@ -1,0 +1,11 @@
+latent_size: 100
+discriminator_first_hidden_size: 512
+discriminator_second_hidden_size: 256
+discriminator_dropout: 0.25
+generator_first_hidden_size: 256
+generator_second_hidden_size: 512
+generator_dropout: 0.25
+negative_slope: 0.2
+image_size: 784
+n_classes: 10
+label_embed_size: 10
