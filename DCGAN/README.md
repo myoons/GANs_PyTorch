@@ -11,12 +11,14 @@
 <br/>
 
 **_Generated Image_**  
-![generated_images_furniture](https://user-images.githubusercontent.com/67945103/124581600-34f21480-de8c-11eb-995f-f1a9a967db6d.png)
-![Generated_images_cats](https://user-images.githubusercontent.com/67945103/124605893-590f1f00-dea7-11eb-9a4a-95f4563bfece.png)
+![generated_images_furniture](https://user-images.githubusercontent.com/67945103/124636456-84a00280-dec3-11eb-8f4f-7b48906b7ce5.png)
+![Generated_images_cats](https://user-images.githubusercontent.com/67945103/124636044-13604f80-dec3-11eb-97a0-ce6e0a1c071d.png)
+
+<br/>
 
 **_Real Images_**  
-![real_images_furniture](https://user-images.githubusercontent.com/67945103/124581396-0aa05700-de8c-11eb-9756-1c614de22779.png)
-![real_images_cats](https://user-images.githubusercontent.com/67945103/124605902-5ad8e280-dea7-11eb-91a5-0f90972254a1.png)
+![real_images_furniture](https://user-images.githubusercontent.com/67945103/124636230-4571b180-dec3-11eb-9308-94a022aa6109.png)
+![real_images_cats](https://user-images.githubusercontent.com/67945103/124636051-14917c80-dec3-11eb-9f36-77fc418247bf.png)
 
 <br/>
 

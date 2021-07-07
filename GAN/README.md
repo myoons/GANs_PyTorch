@@ -14,6 +14,8 @@
 ![generated_images_mnist](https://user-images.githubusercontent.com/67945103/124448990-f8f07e00-ddbd-11eb-8ffa-4e428d5ad689.png)
 ![Generated_images_fashion_mnist](https://user-images.githubusercontent.com/67945103/124488621-053f0000-ddeb-11eb-8186-bd43cb1a5c11.png)
 
+<br/>
+
 **_Real Images_**  
 ![real_images_mnist](https://user-images.githubusercontent.com/67945103/124446616-8c747f80-ddbb-11eb-8d91-ec89c329f70c.png)
 ![real_images_fashion_mnist](https://user-images.githubusercontent.com/67945103/124488594-ff491f00-ddea-11eb-8fbd-f88f263adc5a.png)
